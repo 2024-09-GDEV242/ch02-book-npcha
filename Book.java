@@ -32,7 +32,7 @@ public class Book
     }
 
     /**
-     * 
+     * @Return the author name.
      */
     public String getAuthor()
     {
@@ -40,7 +40,7 @@ public class Book
     }
     
     /**
-     * 
+     * @Return the book title.
      */
     public String getTitle()
     {
@@ -48,7 +48,7 @@ public class Book
     }
     
     /**
-     * 
+     * @Return the pages number of the book.
      */
     public int getPages()
     {
@@ -56,7 +56,7 @@ public class Book
     }
     
     /**
-     * 
+     * Display the author name.
      */
     public void printAuthor()
     {
@@ -64,7 +64,7 @@ public class Book
     }
     
     /**
-     * 
+     * Display the book title.
      */
     public void printTitle()
     {
@@ -72,7 +72,7 @@ public class Book
     }
     
     /**
-     * 
+     * @Return the book' reference number.
      */
     public String getRefNumber()
     {
@@ -80,7 +80,7 @@ public class Book
     }
     
     /**
-     * 
+     * @Return how many the book have been borrowed.
      */
     public int getBorrowed()
     {
@@ -88,7 +88,7 @@ public class Book
     }
     
     /**
-     * 
+     * Count how many the book have been borrowed.
      */
     public void borrow()
     {
@@ -96,7 +96,9 @@ public class Book
     }
     
     /**
-     * 
+     * Set the book' reference number.
+     * if the reference number entered is less than
+     * three, print an error message. 
      */
     public void setRefNumber(String ref)
     {
@@ -113,7 +115,8 @@ public class Book
     }
     
     /**
-     * 
+     * @Return the courseText.
+     * Checking whether the book is a course textbook or not.
      */
     public boolean isCourseText()
     {
@@ -121,7 +124,11 @@ public class Book
     }
     
     /**
-     * 
+     * Display all the book details.
+     * Checking whether the book has a reference number or not.
+     * If there is, will display with the book details.
+     * However, if there isn't, will only display the book's detail
+     * that have been entered.
      */
     public void printDetails()
     {
