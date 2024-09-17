@@ -87,8 +87,18 @@ public class Book
      */
     public void printDetails()
     {
-        System.out.println("Title: " + title 
+        String bookDetails = "Title: " + title 
         + ", Author: " + author 
-        + ", Pages: " + pages);
+        + ", Pages: " + pages;
+        
+        if(refNumber.length() > 0)
+        {
+            System.out.println(bookDetails 
+            + ", Reference Number: " + refNumber);
+        }
+        else
+        {
+            System.out.println(bookDetails);
+        }
     }
 }
