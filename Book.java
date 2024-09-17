@@ -79,7 +79,16 @@ public class Book
      */
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if (ref.length() >= 3)
+        {
+            refNumber = ref;
+        }
+        else
+        {
+            System.out.println("Error..." + "Reference Number" 
+            + " should have at least three or more characters"
+            + "\n" + "Please set a new one");
+        }
     }
     
     /**
