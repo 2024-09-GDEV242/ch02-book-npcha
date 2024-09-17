@@ -1,7 +1,8 @@
 /**
- * A class that maintains information on a book.
- * This might form part of a larger application such
- * as a library system, for instance.
+ * This class receives and maintains information
+ * about the book. It acts like a library system
+ * that will record and display whatever infor-
+ * mation the user asks for.
  *
  * @author Pipatporn Chaluthong
  * @version 2024.9.17
